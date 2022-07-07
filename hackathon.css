@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gideon+Roman&family=Oswald:wght@600&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    background-color: #ff9b9b;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar
+{
+    height:100px;
+    background-color:rgba(122, 118, 118, 0.2);;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+.text
+{
+    font-size:  60px; ;
+}
+
+.logo
+{
+    float:left;
+    height:100px;
+    line-height: 100px;
+    margin-left: 20px;
+}
+img
+{
+    height:90px;
+    line-height: 90px;
+    width:90px;
+}
+
+.search
+{
+    float:right;
+    line-height: 100px;
+    margin-right:30px;
+}
+
+button
+{
+    border-radius: 2px;
+    cursor:pointer;
+}
+input
+{
+    border-radius: 2px;
+}
+
+.images
+{
+    margin-left: 200px;
+    height:300px;
+    width:400px;
+    float:left;
+    display:flex;
+    flex-direction: column;
+}
+
+.container
+{
+    border:2px rgb(54, 54, 20);
+    border-radius:5px;
+}
+
+
+.images img
+{
+    height:200px;
+    width:200px;
+}
+
+.tablu
+{
+    float:right;
+    background-color: white;
+    border-collapse: collapse;
+    margin-right:40px;
+    width: 400px;
+    border-radius: 5px 5px 0 0; 
+    overflow: hidden;
+    box-shadow:0 0 20px rgba(0,0,0,0.15);
+}
+
+.text
+{
+    float:left;
+    line-height: 90px;
+}
+
+.tablu thead tr
+{
+    background-color: #009879;
+    color:#ffffff;
+    text-align: left;
+}
+
+.tablu th,.tablu td
+{   
+    padding:12px 15px;
+}
+
+.tablu tbody tr
+{
+    border-bottom:1px solid #dddddd;
+}
+
+.tablu tbody tr:nth-of-type(even)
+{
+    background-color:rgb(246, 241, 241);
+}
+
+.tablu tbody tr:last-of-type
+{
+    border-bottom: 2px solid #009879;
+}
+
+.tablu tbody tr.active-row
+{
+    font-weight:bold;
+    color:#009879;
+}
+
+
+

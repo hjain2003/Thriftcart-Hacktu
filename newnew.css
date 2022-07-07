@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Bebas+Neue&family=Gideon+Roman&family=Montserrat:wght@500&family=Oswald:wght@600&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav
+{
+    background-color:rgba(122, 118, 118, 0.2);
+    height:60px;
+    /* border:2px solid black; */
+}
+
+nav img
+{
+    height:60px;
+    float:left;
+}
+
+.textu
+{
+    float:left;
+    line-height:60px;
+}
+
+nav ul
+{
+    padding: 0px 80px;
+    float:right;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline;
+    line-height: 60px;
+    padding:40px;
+}
+
+
+nav ul li a
+{
+    color:red;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{   
+    color:white;
+    background-color: rgb(255, 93, 120);
+    border-radius: 10px;
+}
+
+.banner
+{
+    height:450px;
+    width:100%;
+    border:2px solid black;
+    background-image:url('Banner.jpeg');
+    background-size: cover;
+    background-position:center;
+}
+
+.naam
+{
+    margin-top:150px;
+    margin-left:80px;
+    font-size: 50px;
+}
+
+.banner img
+{
+    height:240px;
+}
+
+.search
+{
+    margin-left:35%;
+    margin-top:400px;
+}
+
+.mostvisited
+{
+    font-size: 50px;
+    margin-left:20px;
+}
+
+.one
+{
+    margin-left:20px;
+    display:flex;
+    flex-direction: row;
+    height:220px;
+    /* border:2px solid black; */
+    justify-content:space-between;
+}
+/* .one a
+{
+    height:220px;
+} */
+.one a:hover
+{
+    transform:scale(1.2);
+    box-shadow:0 0 10px rgba(0,0,0,0.5)
+}
+
+.two
+{
+    font-size: 30px;
+}
+
+
+.twobanner
+{
+    margin-left:20px;
+    font-size: 30px;
+    display:flex;
+    flex-direction: row;
+    height:220px;
+    justify-content:space-between;
+}
+
+.twobanner a:hover
+{
+    transform:scale(1.01);
+    box-shadow:0 0 10px rgba(0,0,0,0.5)
+}
+
+.threebanner
+{
+    margin-left:20px;
+    font-size: 30px;
+    display:flex;
+    flex-direction: row;
+    height:220px;
+    justify-content:space-between;
+}
+
+.threebanner a:hover
+{
+    transform:scale(1.1);
+    box-shadow:0 0 10px rgba(0,0,0,0.5)
+}
+
+
+/* twobanner img
+{
+    height:300px;
+} */
